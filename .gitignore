@@ -1,0 +1,71 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment variables
+.env
+.venv/
+env/
+venv/
+
+# Build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Data files
+data/
+*.csv
+*.h5
+*.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual machine files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Model files
+*.ckpt
+*.pth
+*.pb
+*.onnx
+*.hdf5
+*.tflite
+
+# Cache files
+.cache/
+*.npy
+*.npz
+
+# Test and coverage files
+.coverage
+*.pytest_cache/
+.jest/
+htmlcov/
+
+# GCP/AWS/Azure credentials
+*.json
+
+# TensorFlow specific
+checkpoint/
+saved_model/
+logs/
+events.out.tfevents.*
+
+# Temporary files created during training
+*.h5.bak
